@@ -63,9 +63,8 @@ local.properties
 .builds
 *.dotCover
 
-
-## TODO: If you have NuGet Package Restore enabled, uncomment this
-#packages/
+#Nuget packages
+packages/
 
 # Visual C++ cache files
 ipch/
@@ -131,10 +130,4 @@ Desktop.ini
 # Mac crap
 .DS_Store
 *.orig
-LogFiles
-Build/Scripts/front.exe.old
-Application/Presentation/Gyldendal.Rettsdata.Lawesome.Web/Tests/config/node_modules/
-node_modules
-Application/Presentation/Gyldendal.Rettsdata.Lawesome.Web/coverage/
 *.vspx
-Tools/JMeter/output/
