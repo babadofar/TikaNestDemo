@@ -1,9 +1,9 @@
 ﻿# Demo console app for indexing windows files with elasticsearch
 ## What is it?
-A simple test program showing how to use TikaOnDotNet to extract metadata from files on a windows file system, and index them into Elasticsearch. 
+A simple test program showing how to use [TikaOnDotNet](https://kevm.github.io/tikaondotnet/) to extract metadata from files on a windows file system, and index them into Elasticsearch. 
 ### OK?
-TikaOnDotNet is a .NET port/wrapper of Apache Tika, using IKVM to magically transform java code into a .net dll. 
-Using TikaOnDotNet, we don't have to use the mapper attachments plugin, but can read text content from files before indexing. It is also easy to retrieve other metadata if you should need that. Communicating with Elasticsearch is done using the wonderful NEST library.
+TikaOnDotNet is a .NET port/wrapper of [Apache Tika](http://tika.apache.org/), using [IKVM](http://www.ikvm.net/) to magically transform java code into a .net dll. 
+Using TikaOnDotNet, we don't have to use the mapper attachments plugin, but can read text content from files before indexing. It is also easy to retrieve other metadata if you should need that. Communicating with Elasticsearch is done using the wonderful [NEST](http://nest.azurewebsites.net/) library.
 ## How can I use it?
 Clone the repo, and open the program in Visual Studio. Running the program will read all documents from your "my documents"
 folder, and index into Elasticsearch.
